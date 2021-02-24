@@ -9,7 +9,7 @@
 
 - use baseDD; = se usa para seleccionar una base de datos especificas por ejemplo use hospital;
 
-- create table nombreTabla (seccion tipoDeDato(max de caracteres), seccion  "" "" ); = se usa para crear las tablas con sus secciones por ejemplo create table medicos ( nombre varchar(30), edad INT);
+- create table nombreTabla (seccion tipoDeDato(max de caracteres) opcion de relleno, primary key(seccion) ) type = tipo; = se usa para crear las tablas con sus secciones por ejemplo create table medicos ( nombre varchar(30) not null, edad INT , primary key (nombre)) type = innodb;
 
 - show databases; = se usa para ver las bases de datos creadas.
 
