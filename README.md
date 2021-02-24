@@ -1,6 +1,8 @@
 #  ----comandos de consola mysql----
 [![logo mysql](https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png "logo mysql")](https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png "logo mysql")
 
+- $mysql -u usuario -p =se usa para acceder a la consola
+
 - mysql -u root = se suele usar para acceder a la consola cuando se usan paquetes como xamp.
 
 - create databases nombreDeBdd; = se usa para crear la bases de datos por ejemplo create databases hospital.
