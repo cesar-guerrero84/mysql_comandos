@@ -18,4 +18,4 @@
 - insert into nombreRegistro values ("jose cordoba" , 22); = este comando es para insertar nuevos registros en la base de datos.
 
 - select (asterisco) from nombreTabla; = este comando se usa para verificar que los datos introducidos fueron creados de forma correcta por ejemplo select (asterisco) from medicos.
--  rename table nombreTabla to nuevoNombre; = se usa para renombrar tablas por ejemplo rename table farmacia to medicos;
+-  rename table nombreTabla to nuevoNombre; = se usa para renombrar tablas y campos de tablas por ejemplo rename table farmacia to medicos;j
