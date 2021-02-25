@@ -5,7 +5,7 @@
 
 - mysql -u root = se suele usar para acceder a la consola cuando se usan paquetes como xamp.
 
-- create databases nombreDeBdd; = se usa para crear la bases de datos por ejemplo create databases hospital.
+- create database nombreDeBdd; = se usa para crear la bases de datos por ejemplo create databases hospital.
 
 - use baseDD; = se usa para seleccionar una base de datos especificas por ejemplo use hospital;
 
