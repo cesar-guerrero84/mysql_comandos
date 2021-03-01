@@ -22,7 +22,7 @@
 
 - alter table nombreTabla change nombreCampo nuevoCampo datos; = se usa para cambiar nombres de campos por ejemplo alter empresa change empleado aprendiz varchar etc ;
 
-- constraint fk_nombreFkTabla2 foreign key (nombreFkTabla2) references nombreTabla1 (nombrePkeyTabla1) = se usa para agregar llaves foraneas y relacion entre dos tablas por ejemplo constraint fk_datos2 foreign key (clave) references datos1 (clave) esto se puede al momento de crear la tabla o agregarlo despues recuerda que los nombres de las llaves foraneas y primaria deben ser los mismos y los mismos datos y cantidad de caracteres. 
+- constraint fk_nombreLlaveforanea foreign key (nombreForeignKey) references nombreTabla1 (nombreFKtabla1) = se usa para agregar llaves foraneas y relacion entre dos tablas por ejemplo constraint fk_datos2 foreign key (clave) references datos1 (clave) esto se puede al momento de crear la tabla o agregarlo despues recuerda que los nombres de las llaves foraneas y primaria deben ser los mismos y los mismos datos y cantidad de caracteres. 
 
 - alter table NombreTabla = se usa para alterar tablas agregando con add y borrando con drop y renombrando con rename y cambiar con changes.
 
